@@ -1,5 +1,5 @@
-# Correlations (r_{sc}) and dimensionality reduction
-Code for computing pairwise metrics (r_{sc} mean, r_{sc} s.d.) and population metrics (loading similarity, % shared variance, and dimensionality).
+# Bridging neuronal correlations and dimensionality reduction
+Code for computing pairwise metrics (Rsc mean and Rsc s.d.) and population metrics (loading similarity, % shared variance, and dimensionality).
 
 For more details on these metrics see our paper, "Bridging neuronal correlations and dimensionality reduction". Umakantha, Morina, Cowley et al. (Neuron, 2021).
 
