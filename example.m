@@ -5,8 +5,11 @@ addpath(genpath('helpers'))
 
 % the two spike count matrices (counts.attend_in, counts.attend_out) are of
 % the shape n_neurons, n_trials
-
 load('example.mat');
+
+% because pairwise and population metrics can depend on n_neurons and n_trials,
+% we recommend that, if possible, one use the same neurons and equalize the 
+% number of trials between conditions one is comparing
 
 %% compute pairwise metrics
 
