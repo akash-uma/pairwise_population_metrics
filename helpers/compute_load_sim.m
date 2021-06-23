@@ -1,4 +1,16 @@
 function [ loading_similarity ] = compute_load_sim( fa_model )
+%
+% computes the loading similarity of each dimension
+%
+% Input:
+%   fa_model - (struct), factor analysis model parameters
+%
+% Output:
+%   loading_similarity - (list), loading similarities of each dimension's
+%                        loading vector
+%
+% @ Akash Umakantha, 2021. See https://www.biorxiv.org/content/10.1101/2020.12.04.383604v1
+% 
 
     % return empty if 'L' does not exist
     if ~isfield(fa_model,'L')

@@ -1,4 +1,17 @@
 function [ dshared ] = compute_dshared( fa_model, var_exp_thresh )
+%
+% computes the shared dimensionality
+%
+% Input:
+%   fa_model       - (struct), factor analysis model parameters
+%   var_exp_thresh - (scalar, [0,1]), variance explained threshold for
+%                    determining dimensionality
+%
+% Output:
+%   dshared - (scalar), shared dimensionality
+%
+% @ Akash Umakantha, 2021. See https://www.biorxiv.org/content/10.1101/2020.12.04.383604v1
+% 
 
     % deal with optional arguments
     if nargin<2
