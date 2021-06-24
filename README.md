@@ -13,8 +13,9 @@ For more results and experimental details, see Umakantha, Morina, Cowley et al. 
 
 Tips/recommendations:
 1) Both pairwise and population metrics can be tricky to interpret on their own. We recommend comparing them in a relative manner (e.g., between two experimental conditions collected in the same session).
-2) Pairwise and population metrics can depend on 1) the number of trials and 2) the number of neurons. If possible, we recommend using the same neurons and equalizing the number of trials between the experimental conditions that one is comparing.
-3) Estimation of population metrics can be tricky when data is limited. When fitting factor analysis, we recommend having at least 3x (preferably 5x or more) the number of trials as the number of neurons.
-
+2) Pairwise and population metrics can depend on 1) the number of trials and 2) the number of neurons (Williamson et al., PLoS Comp Bio 2016). If possible, we recommend using the same neurons and equalizing the number of trials between the experimental conditions that one is comparing.
+3) Estimation of population metrics can be tricky when data is limited. When fitting factor analysis, we recommend having at least 3x (preferably 5x or more) the number of trials as the number of neurons. See Supplementary Figure 6.
 
 We would like to thank Richard Johnston, Patricia Stan, and Shenghao Wu for their help in testing the code.
+
+Code author: Akash Umakantha (aumakant@cmu.edu)
