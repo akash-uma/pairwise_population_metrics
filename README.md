@@ -16,4 +16,4 @@ Tips/recommendations:
 
 We would like to thank Richard Johnston, Patricia Stan, and Shenghao Wu for their help in testing the code.
 
-Please contact the code author (Akash Umakantha, aumakant@cmu.edu) for questions, comments, or suggestions about the code.
+Please contact the code author (Akash Umakantha, akash.umakantha@gmail.com) for questions, comments, or suggestions about the code.
